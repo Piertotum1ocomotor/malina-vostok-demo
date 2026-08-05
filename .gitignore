@@ -1,0 +1,6 @@
+.DS_Store
+.vscode/
+source/
+reference/
+project-info/
+*.zip

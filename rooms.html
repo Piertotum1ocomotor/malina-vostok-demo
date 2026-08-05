@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Размещение — Малина Восток</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&amp;family=Prata&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/styles.css?v=system-audit">
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/rooms.js" defer></script>
+  </head>
+  <body class="rooms-page-layout">
+    <header class="site-header">
+      <div class="header-links" aria-label="Другие глэмпинги">
+        <div class="page-shell header-links__inner">
+          <a href="https://glampingmalina.ru/zelenogradsk" target="_blank" rel="noopener noreferrer">Малина глэмпинг Зеленоградск</a>
+          <a href="https://glampingmalina.ru/kosa" target="_blank" rel="noopener noreferrer">Малина глэмпинг Коса</a>
+        </div>
+      </div>
+      <div class="page-shell header-main">
+        <a class="logo" href="index.html" aria-label="Малина Восток — главная">
+          <img src="assets/images/logo/malina-vostok-logo.png" alt="Малина Восток">
+        </a>
+        <nav class="desktop-nav" aria-label="Основная навигация">
+          <a href="rooms.html" aria-current="page">Размещение</a>
+          <a href="index.html#about">О&nbsp;нас</a>
+          <a href="index.html#advantages">Преимущества</a>
+          <a href="index.html#events">Мероприятия</a>
+        </nav>
+        <div class="header-actions">
+          <span class="header-phone">+7 (___) ___-__-__</span>
+          <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-controls="mobile-menu" aria-expanded="false" aria-haspopup="dialog">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="menu-overlay" data-menu-close aria-hidden="true"></div>
+    <aside class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Мобильное меню" aria-hidden="true" inert>
+      <div class="mobile-menu__top">
+        <span>Меню</span>
+        <button class="menu-close" type="button" aria-label="Закрыть меню" data-menu-close>×</button>
+      </div>
+      <nav class="mobile-menu__nav" aria-label="Основная навигация">
+        <a href="rooms.html" aria-current="page">Размещение</a>
+        <a href="index.html#about">О&nbsp;нас</a>
+        <a href="index.html#advantages">Преимущества</a>
+        <a href="index.html#events">Мероприятия</a>
+      </nav>
+      <nav class="mobile-menu__places" aria-label="Другие глэмпинги">
+        <a href="https://glampingmalina.ru/zelenogradsk" target="_blank" rel="noopener noreferrer">Малина глэмпинг Зеленоградск</a>
+        <a href="https://glampingmalina.ru/kosa" target="_blank" rel="noopener noreferrer">Малина глэмпинг Коса</a>
+      </nav>
+    </aside>
+
+    <main class="rooms-page">
+      <section class="rooms-intro" aria-labelledby="rooms-title">
+        <div class="rooms-page-shell rooms-intro__inner">
+          <h1 id="rooms-title">Размещение</h1>
+          <p>Номера для&nbsp;спокойного отдыха на&nbsp;природе с&nbsp;комфортом отеля.</p>
+        </div>
+      </section>
+
+      <!-- Временный контент: заменить после получения названий, описаний и характеристик номеров -->
+      <section class="room-section room-section--primary" id="room-1" aria-labelledby="room-1-title">
+        <div class="room-section__layout">
+          <div class="room-section__main">
+            <button class="room-media-button room-media-button--main" type="button" data-room-gallery="room-1" data-room-index="0" aria-label="Открыть основную фотографию номера 1">
+              <img class="room-main-image" src="assets/images/rooms/room-photo-01.jpg" alt="Фотография номера 1 — временный основной материал" width="1280" height="1280" fetchpriority="high">
+            </button>
+          </div>
+          <div class="room-info">
+            <p class="room-info__eyebrow">Размещение</p>
+            <h2 class="room-info__title" id="room-1-title">Номер 1</h2>
+            <p class="room-info__description">Описание номера будет добавлено после подготовки окончательного контента.</p>
+            <dl class="room-info__specs">
+              <div><dt>Площадь</dt><dd>Уточняется</dd></div>
+              <div><dt>Вместимость</dt><dd>Уточняется</dd></div>
+              <div><dt>Спальные места</dt><dd>Уточняются</dd></div>
+            </dl>
+            <!-- TODO: заменить disabled-кнопку на внешнюю ссылку бронирования -->
+            <button class="room-info__booking" type="button" disabled aria-disabled="true">Забронировать</button>
+          </div>
+          <div class="room-section__gallery" aria-label="Фотографии номера 1">
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-1" data-room-index="1" aria-label="Открыть фотографию 2 номера 1"><img src="assets/images/rooms/room-photo-02.jpg" alt="Фотография номера 1 — временный материал 2" width="1920" height="2560" loading="lazy"></button>
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-1" data-room-index="2" aria-label="Открыть фотографию 3 номера 1"><img src="assets/images/rooms/room-photo-03.jpg" alt="Фотография номера 1 — временный материал 3" width="600" height="916" loading="lazy"></button>
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-1" data-room-index="3" aria-label="Открыть фотографию 4 номера 1"><img src="assets/images/rooms/room-photo-08.jpg" alt="Фотография номера 1 — временный материал 4" width="1280" height="853" loading="lazy"></button>
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-1" data-room-index="4" aria-label="Открыть фотографию 5 номера 1"><img src="assets/images/rooms/room-photo-10.jpg" alt="Фотография номера 1 — временный материал 5" width="1440" height="801" loading="lazy"></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="room-section room-section--reverse" id="room-2" aria-labelledby="room-2-title">
+        <div class="room-section__layout">
+          <div class="room-section__main">
+            <button class="room-media-button room-media-button--main" type="button" data-room-gallery="room-2" data-room-index="0" aria-label="Открыть основную фотографию номера 2">
+              <img class="room-main-image" src="assets/images/rooms/room-photo-02.jpg" alt="Фотография номера 2 — временный основной материал" width="1920" height="2560" loading="lazy">
+            </button>
+          </div>
+          <div class="room-info">
+            <p class="room-info__eyebrow">Размещение</p>
+            <h2 class="room-info__title" id="room-2-title">Номер 2</h2>
+            <p class="room-info__description">Описание номера будет добавлено после подготовки окончательного контента.</p>
+            <dl class="room-info__specs">
+              <div><dt>Площадь</dt><dd>Уточняется</dd></div>
+              <div><dt>Вместимость</dt><dd>Уточняется</dd></div>
+              <div><dt>Спальные места</dt><dd>Уточняются</dd></div>
+            </dl>
+            <!-- TODO: заменить disabled-кнопку на внешнюю ссылку бронирования -->
+            <button class="room-info__booking" type="button" disabled aria-disabled="true">Забронировать</button>
+          </div>
+          <div class="room-section__gallery" aria-label="Фотографии номера 2">
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-2" data-room-index="1" aria-label="Открыть фотографию 2 номера 2"><img src="assets/images/rooms/room-photo-03.jpg" alt="Фотография номера 2 — временный материал 2" width="600" height="916" loading="lazy"></button>
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-2" data-room-index="2" aria-label="Открыть фотографию 3 номера 2"><img src="assets/images/rooms/room-photo-04.jpg" alt="Фотография номера 2 — временный материал 3" width="1279" height="1920" loading="lazy"></button>
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-2" data-room-index="3" aria-label="Открыть фотографию 4 номера 2"><img src="assets/images/rooms/room-photo-09.jpg" alt="Фотография номера 2 — временный материал 4" width="1440" height="801" loading="lazy"></button>
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-2" data-room-index="4" aria-label="Открыть фотографию 5 номера 2"><img src="assets/images/rooms/room-photo-01.jpg" alt="Фотография номера 2 — временный материал 5" width="1280" height="1280" loading="lazy"></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="room-section room-section--primary" id="room-3" aria-labelledby="room-3-title">
+        <div class="room-section__layout">
+          <div class="room-section__main">
+            <button class="room-media-button room-media-button--main" type="button" data-room-gallery="room-3" data-room-index="0" aria-label="Открыть основную фотографию номера 3">
+              <img class="room-main-image" src="assets/images/rooms/room-photo-03.jpg" alt="Фотография номера 3 — временный основной материал" width="600" height="916" loading="lazy">
+            </button>
+          </div>
+          <div class="room-info">
+            <p class="room-info__eyebrow">Размещение</p>
+            <h2 class="room-info__title" id="room-3-title">Номер 3</h2>
+            <p class="room-info__description">Описание номера будет добавлено после подготовки окончательного контента.</p>
+            <dl class="room-info__specs">
+              <div><dt>Площадь</dt><dd>Уточняется</dd></div>
+              <div><dt>Вместимость</dt><dd>Уточняется</dd></div>
+              <div><dt>Спальные места</dt><dd>Уточняются</dd></div>
+            </dl>
+            <!-- TODO: заменить disabled-кнопку на внешнюю ссылку бронирования -->
+            <button class="room-info__booking" type="button" disabled aria-disabled="true">Забронировать</button>
+          </div>
+          <div class="room-section__gallery" aria-label="Фотографии номера 3">
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-3" data-room-index="1" aria-label="Открыть фотографию 2 номера 3"><img src="assets/images/rooms/room-photo-04.jpg" alt="Фотография номера 3 — временный материал 2" width="1279" height="1920" loading="lazy"></button>
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-3" data-room-index="2" aria-label="Открыть фотографию 3 номера 3"><img src="assets/images/rooms/room-photo-05.jpg" alt="Фотография номера 3 — временный материал 3" width="1707" height="2560" loading="lazy"></button>
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-3" data-room-index="3" aria-label="Открыть фотографию 4 номера 3"><img src="assets/images/rooms/room-photo-10.jpg" alt="Фотография номера 3 — временный материал 4" width="1440" height="801" loading="lazy"></button>
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-3" data-room-index="4" aria-label="Открыть фотографию 5 номера 3"><img src="assets/images/rooms/room-photo-02.jpg" alt="Фотография номера 3 — временный материал 5" width="1920" height="2560" loading="lazy"></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="room-section room-section--reverse" id="room-4" aria-labelledby="room-4-title">
+        <div class="room-section__layout">
+          <div class="room-section__main">
+            <button class="room-media-button room-media-button--main" type="button" data-room-gallery="room-4" data-room-index="0" aria-label="Открыть основную фотографию номера 4">
+              <img class="room-main-image" src="assets/images/rooms/room-photo-04.jpg" alt="Фотография номера 4 — временный основной материал" width="1279" height="1920" loading="lazy">
+            </button>
+          </div>
+          <div class="room-info">
+            <p class="room-info__eyebrow">Размещение</p>
+            <h2 class="room-info__title" id="room-4-title">Номер 4</h2>
+            <p class="room-info__description">Описание номера будет добавлено после подготовки окончательного контента.</p>
+            <dl class="room-info__specs">
+              <div><dt>Площадь</dt><dd>Уточняется</dd></div>
+              <div><dt>Вместимость</dt><dd>Уточняется</dd></div>
+              <div><dt>Спальные места</dt><dd>Уточняются</dd></div>
+            </dl>
+            <!-- TODO: заменить disabled-кнопку на внешнюю ссылку бронирования -->
+            <button class="room-info__booking" type="button" disabled aria-disabled="true">Забронировать</button>
+          </div>
+          <div class="room-section__gallery" aria-label="Фотографии номера 4">
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-4" data-room-index="1" aria-label="Открыть фотографию 2 номера 4"><img src="assets/images/rooms/room-photo-05.jpg" alt="Фотография номера 4 — временный материал 2" width="1707" height="2560" loading="lazy"></button>
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-4" data-room-index="2" aria-label="Открыть фотографию 3 номера 4"><img src="assets/images/rooms/room-photo-06.jpg" alt="Фотография номера 4 — временный материал 3" width="1440" height="1800" loading="lazy"></button>
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-4" data-room-index="3" aria-label="Открыть фотографию 4 номера 4"><img src="assets/images/rooms/room-photo-08.jpg" alt="Фотография номера 4 — временный материал 4" width="1280" height="853" loading="lazy"></button>
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-4" data-room-index="4" aria-label="Открыть фотографию 5 номера 4"><img src="assets/images/rooms/room-photo-03.jpg" alt="Фотография номера 4 — временный материал 5" width="600" height="916" loading="lazy"></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="room-section room-section--primary" id="room-5" aria-labelledby="room-5-title">
+        <div class="room-section__layout">
+          <div class="room-section__main">
+            <button class="room-media-button room-media-button--main" type="button" data-room-gallery="room-5" data-room-index="0" aria-label="Открыть основную фотографию номера 5">
+              <img class="room-main-image" src="assets/images/rooms/room-photo-05.jpg" alt="Фотография номера 5 — временный основной материал" width="1707" height="2560" loading="lazy">
+            </button>
+          </div>
+          <div class="room-info">
+            <p class="room-info__eyebrow">Размещение</p>
+            <h2 class="room-info__title" id="room-5-title">Номер 5</h2>
+            <p class="room-info__description">Описание номера будет добавлено после подготовки окончательного контента.</p>
+            <dl class="room-info__specs">
+              <div><dt>Площадь</dt><dd>Уточняется</dd></div>
+              <div><dt>Вместимость</dt><dd>Уточняется</dd></div>
+              <div><dt>Спальные места</dt><dd>Уточняются</dd></div>
+            </dl>
+            <!-- TODO: заменить disabled-кнопку на внешнюю ссылку бронирования -->
+            <button class="room-info__booking" type="button" disabled aria-disabled="true">Забронировать</button>
+          </div>
+          <div class="room-section__gallery" aria-label="Фотографии номера 5">
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-5" data-room-index="1" aria-label="Открыть фотографию 2 номера 5"><img src="assets/images/rooms/room-photo-06.jpg" alt="Фотография номера 5 — временный материал 2" width="1440" height="1800" loading="lazy"></button>
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-5" data-room-index="2" aria-label="Открыть фотографию 3 номера 5"><img src="assets/images/rooms/room-photo-07.jpg" alt="Фотография номера 5 — временный материал 3" width="1440" height="1440" loading="lazy"></button>
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-5" data-room-index="3" aria-label="Открыть фотографию 4 номера 5"><img src="assets/images/rooms/room-photo-09.jpg" alt="Фотография номера 5 — временный материал 4" width="1440" height="801" loading="lazy"></button>
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-5" data-room-index="4" aria-label="Открыть фотографию 5 номера 5"><img src="assets/images/rooms/room-photo-04.jpg" alt="Фотография номера 5 — временный материал 5" width="1279" height="1920" loading="lazy"></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="room-section room-section--reverse" id="room-6" aria-labelledby="room-6-title">
+        <div class="room-section__layout">
+          <div class="room-section__main">
+            <button class="room-media-button room-media-button--main" type="button" data-room-gallery="room-6" data-room-index="0" aria-label="Открыть основную фотографию номера 6">
+              <img class="room-main-image" src="assets/images/rooms/room-photo-06.jpg" alt="Фотография номера 6 — временный основной материал" width="1440" height="1800" loading="lazy">
+            </button>
+          </div>
+          <div class="room-info">
+            <p class="room-info__eyebrow">Размещение</p>
+            <h2 class="room-info__title" id="room-6-title">Номер 6</h2>
+            <p class="room-info__description">Описание номера будет добавлено после подготовки окончательного контента.</p>
+            <dl class="room-info__specs">
+              <div><dt>Площадь</dt><dd>Уточняется</dd></div>
+              <div><dt>Вместимость</dt><dd>Уточняется</dd></div>
+              <div><dt>Спальные места</dt><dd>Уточняются</dd></div>
+            </dl>
+            <!-- TODO: заменить disabled-кнопку на внешнюю ссылку бронирования -->
+            <button class="room-info__booking" type="button" disabled aria-disabled="true">Забронировать</button>
+          </div>
+          <div class="room-section__gallery" aria-label="Фотографии номера 6">
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-6" data-room-index="1" aria-label="Открыть фотографию 2 номера 6"><img src="assets/images/rooms/room-photo-07.jpg" alt="Фотография номера 6 — временный материал 2" width="1440" height="1440" loading="lazy"></button>
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-6" data-room-index="2" aria-label="Открыть фотографию 3 номера 6"><img src="assets/images/rooms/room-photo-01.jpg" alt="Фотография номера 6 — временный материал 3" width="1280" height="1280" loading="lazy"></button>
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-6" data-room-index="3" aria-label="Открыть фотографию 4 номера 6"><img src="assets/images/rooms/room-photo-10.jpg" alt="Фотография номера 6 — временный материал 4" width="1440" height="801" loading="lazy"></button>
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-6" data-room-index="4" aria-label="Открыть фотографию 5 номера 6"><img src="assets/images/rooms/room-photo-05.jpg" alt="Фотография номера 6 — временный материал 5" width="1707" height="2560" loading="lazy"></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="room-section room-section--primary room-section--last" id="room-7" aria-labelledby="room-7-title">
+        <div class="room-section__layout">
+          <div class="room-section__main">
+            <button class="room-media-button room-media-button--main" type="button" data-room-gallery="room-7" data-room-index="0" aria-label="Открыть основную фотографию номера 7">
+              <img class="room-main-image" src="assets/images/rooms/room-photo-07.jpg" alt="Фотография номера 7 — временный основной материал" width="1440" height="1440" loading="lazy">
+            </button>
+          </div>
+          <div class="room-info">
+            <p class="room-info__eyebrow">Размещение</p>
+            <h2 class="room-info__title" id="room-7-title">Номер 7</h2>
+            <p class="room-info__description">Описание номера будет добавлено после подготовки окончательного контента.</p>
+            <dl class="room-info__specs">
+              <div><dt>Площадь</dt><dd>Уточняется</dd></div>
+              <div><dt>Вместимость</dt><dd>Уточняется</dd></div>
+              <div><dt>Спальные места</dt><dd>Уточняются</dd></div>
+            </dl>
+            <!-- TODO: заменить disabled-кнопку на внешнюю ссылку бронирования -->
+            <button class="room-info__booking" type="button" disabled aria-disabled="true">Забронировать</button>
+          </div>
+          <div class="room-section__gallery" aria-label="Фотографии номера 7">
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-7" data-room-index="1" aria-label="Открыть фотографию 2 номера 7"><img src="assets/images/rooms/room-photo-01.jpg" alt="Фотография номера 7 — временный материал 2" width="1280" height="1280" loading="lazy"></button>
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-7" data-room-index="2" aria-label="Открыть фотографию 3 номера 7"><img src="assets/images/rooms/room-photo-02.jpg" alt="Фотография номера 7 — временный материал 3" width="1920" height="2560" loading="lazy"></button>
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-7" data-room-index="3" aria-label="Открыть фотографию 4 номера 7"><img src="assets/images/rooms/room-photo-08.jpg" alt="Фотография номера 7 — временный материал 4" width="1280" height="853" loading="lazy"></button>
+            <button class="room-media-button room-media-button--preview" type="button" data-room-gallery="room-7" data-room-index="4" aria-label="Открыть фотографию 5 номера 7"><img src="assets/images/rooms/room-photo-06.jpg" alt="Фотография номера 7 — временный материал 5" width="1440" height="1800" loading="lazy"></button>
+          </div>
+        </div>
+      </section>
+
+      <div class="rooms-lightbox" role="dialog" aria-modal="true" aria-label="Просмотр фотографий номера" aria-hidden="true" inert>
+        <button class="rooms-lightbox__close" type="button" aria-label="Закрыть полноэкранный просмотр">×</button>
+        <button class="rooms-lightbox__previous" type="button" aria-label="Предыдущая фотография">‹</button>
+        <div class="rooms-lightbox__stage">
+          <img class="rooms-lightbox__image" alt="">
+        </div>
+        <button class="rooms-lightbox__next" type="button" aria-label="Следующая фотография">›</button>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-shell footer-inner">
+        <img class="footer-logo" src="assets/images/logo/malina-vostok-logo.png" alt="Малина Восток">
+        <address>пос. Большаково, ул. Садовая, 12</address>
+        <span>+7 (___) ___-__-__</span>
+        <a href="privacy.html">Политика конфиденциальности</a>
+      </div>
+    </footer>
+  </body>
+</html>

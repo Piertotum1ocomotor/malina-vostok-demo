@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Малина Восток — отдых на свежем воздухе с комфортом отеля.">
+    <title>Малина Восток</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&amp;family=Prata&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/styles.css?v=system-audit">
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-links" aria-label="Другие глэмпинги">
+        <div class="page-shell header-links__inner">
+          <a href="https://glampingmalina.ru/zelenogradsk" target="_blank" rel="noopener noreferrer">Малина глэмпинг Зеленоградск</a>
+          <a href="https://glampingmalina.ru/kosa" target="_blank" rel="noopener noreferrer">Малина глэмпинг Коса</a>
+        </div>
+      </div>
+      <div class="page-shell header-main">
+        <a class="logo" href="index.html" aria-label="Малина Восток — главная" aria-current="page">
+          <img src="assets/images/logo/malina-vostok-logo.png" alt="Малина Восток">
+        </a>
+        <nav class="desktop-nav" aria-label="Основная навигация">
+          <a href="rooms.html">Размещение</a>
+          <a href="#about">О&nbsp;нас</a>
+          <a href="#advantages">Преимущества</a>
+          <a href="#events">Мероприятия</a>
+        </nav>
+        <div class="header-actions">
+          <span class="header-phone">+7 (___) ___-__-__</span>
+          <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-controls="mobile-menu" aria-expanded="false" aria-haspopup="dialog">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="menu-overlay" data-menu-close aria-hidden="true"></div>
+    <aside class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Мобильное меню" aria-hidden="true" inert>
+      <div class="mobile-menu__top">
+        <span>Меню</span>
+        <button class="menu-close" type="button" aria-label="Закрыть меню" data-menu-close>×</button>
+      </div>
+      <nav class="mobile-menu__nav" aria-label="Основная навигация">
+        <a href="rooms.html">Размещение</a>
+        <a href="#about">О&nbsp;нас</a>
+        <a href="#advantages">Преимущества</a>
+        <a href="#events">Мероприятия</a>
+      </nav>
+      <nav class="mobile-menu__places" aria-label="Другие глэмпинги">
+        <a href="https://glampingmalina.ru/zelenogradsk" target="_blank" rel="noopener noreferrer">Малина глэмпинг Зеленоградск</a>
+        <a href="https://glampingmalina.ru/kosa" target="_blank" rel="noopener noreferrer">Малина глэмпинг Коса</a>
+      </nav>
+    </aside>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <video class="hero__video" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+          <source src="assets/video/hero.mp4" type="video/mp4">
+        </video>
+        <div class="hero__shade"></div>
+        <div class="page-shell hero__content">
+          <p class="hero__eyebrow">ГЛЭМПИНГ</p>
+          <h1 id="hero-title">Малина Восток</h1>
+          <p class="hero__subtitle">Отдых на&nbsp;свежем воздухе с&nbsp;комфортом отеля</p>
+          <a class="button button--light" href="#booking">Забронировать</a>
+        </div>
+      </section>
+
+      <section class="booking-section" id="booking" aria-label="Онлайн-бронирование">
+        <div class="booking-section__inner">
+          <style>
+            #block-search,
+            #block-search * {
+              box-sizing: border-box;
+            }
+
+            #block-search {
+              width: 100%;
+              max-width: 100%;
+              background: #fff;
+            }
+
+            .tl-container {
+              width: 100%;
+              max-width: 100%;
+              padding: 0 30px;
+            }
+
+            .cert-button {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-top: 20px;
+            }
+
+            .cert-link {
+              padding: 12px 26px;
+              font-family: "Manrope", Arial, sans-serif;
+              font-weight: 600;
+              font-size: 14px;
+              line-height: normal;
+              background: #B0316E;
+              color: #FFFFFF !important;
+              border-radius: 10px;
+              text-decoration: none;
+              text-transform: uppercase;
+              transition: background-color 0.2s ease;
+            }
+
+            .cert-link:hover,
+            .cert-link:focus-visible {
+              background: #CC4083;
+            }
+
+            @media (max-width: 959px) {
+              .tl-container {
+                padding-inline: 20px;
+              }
+            }
+
+            @media (max-width: 480px) {
+              .tl-container {
+                padding-inline: 12px;
+              }
+            }
+
+          </style>
+          <div id="block-search">
+            <div id="tl-search-form" class="tl-container">
+              <noindex>
+                <a href="https://www.travelline.ru/products/tl-hotel/" rel="nofollow">Модуль онлайн-бронирования</a>
+              </noindex>
+            </div>
+          </div>
+          <script type="text/javascript">
+            (function(w) {
+              var q = [
+                ['setContext', 'TL-INT-glampingmalina_2022-07-12', 'ru'],
+                ['embed', 'search-form', {
+                  container: 'tl-search-form'
+                }]
+              ];
+
+              var h = [
+                'ru-ibe.tlintegration.ru',
+                'ibe.tlintegration.ru',
+                'ibe.tlintegration.com'
+              ];
+
+              var t = w.travelline = (w.travelline || {}),
+                  ti = t.integration = (t.integration || {});
+
+              ti.__cq = ti.__cq ? ti.__cq.concat(q) : q;
+
+              if (!ti.__loader) {
+                ti.__loader = true;
+
+                var d = w.document;
+                var c = d.getElementsByTagName('head')[0] ||
+                        d.getElementsByTagName('body')[0];
+
+                function e(s, f) {
+                  return function() {
+                    w.TL || (c.removeChild(s), f());
+                  };
+                }
+
+                (function l(hosts) {
+                  if (hosts.length === 0) {
+                    return;
+                  }
+
+                  var s = d.createElement('script');
+
+                  s.type = 'text/javascript';
+                  s.async = true;
+                  s.src = 'https://' + hosts[0] + '/integration/loader.js';
+
+                  s.onerror = s.onload = e(s, function() {
+                    l(hosts.slice(1));
+                  });
+
+                  c.appendChild(s);
+                })(h);
+              }
+            })(window);
+          </script>
+          <div class="cert-button">
+            <a href="?tl-booking-open=true&amp;tl-booking-scenario=57659#booking" class="cert-link">Сертификаты</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="about-section__inner">
+          <div class="about-scale-frame">
+            <div class="about-scale-content">
+              <p class="about-text">«Малина&nbsp;Восток» — отдых на&nbsp;свежем воздухе с&nbsp;комфортом отеля. Семь номеров, открытый подогреваемый бассейн круглый год и&nbsp;мангальная зона — всё необходимое для&nbsp;спокойного отдыха в&nbsp;посёлке Большаково.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="accommodation-section" aria-label="Размещение">
+        <div class="accommodation-layout">
+          <div class="accommodation-scale-frame">
+            <div class="accommodation-scale-content">
+              <div class="accommodation-visual">
+                <img src="assets/images/photos/accommodation-main.jpeg" alt="Территория глэмпинга с бассейном и местами для отдыха" loading="lazy">
+              </div>
+              <div class="accommodation-info">
+                <div class="accommodation-intro">
+                  <p>Комфортные номера для&nbsp;спокойного отдыха на&nbsp;природе с&nbsp;удобствами отеля.</p>
+                </div>
+                <div class="accommodation-all-rooms">
+                  <a class="accommodation-intro__link" href="rooms.html">Все номера <span aria-hidden="true">→</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accommodation-room-rail" aria-label="Варианты размещения">
+            <a class="room-preview-card" href="rooms.html#room-1">
+              <div class="room-preview-card__media" aria-hidden="true"></div>
+              <div class="room-preview-card__body">
+                <div class="room-preview-card__title">Номер 1</div>
+                <p class="room-preview-card__description">Уютный номер для&nbsp;спокойного отдыха вдвоём.</p>
+              </div>
+            </a>
+            <a class="room-preview-card" href="rooms.html#room-2">
+              <div class="room-preview-card__media" aria-hidden="true"></div>
+              <div class="room-preview-card__body">
+                <div class="room-preview-card__title">Номер 2</div>
+                <p class="room-preview-card__description">Светлое пространство для&nbsp;выходных на&nbsp;природе.</p>
+              </div>
+            </a>
+            <a class="room-preview-card" href="rooms.html#room-3">
+              <div class="room-preview-card__media" aria-hidden="true"></div>
+              <div class="room-preview-card__body">
+                <div class="room-preview-card__title">Номер 3</div>
+                <p class="room-preview-card__description">Комфортный номер для&nbsp;неспешного отдыха.</p>
+              </div>
+            </a>
+            <a class="room-preview-card" href="rooms.html#room-4">
+              <div class="room-preview-card__media" aria-hidden="true"></div>
+              <div class="room-preview-card__body">
+                <div class="room-preview-card__title">Номер 4</div>
+                <p class="room-preview-card__description">Тихий вариант для&nbsp;отдыха вдали от&nbsp;города.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="nature-banner" aria-label="Природа рядом с глэмпингом">
+        <div class="nature-banner__inner">
+          <img
+            class="nature-banner__image"
+            src="assets/images/photos/nature-banner.jpg"
+            alt="Морское побережье и волны с высоты"
+            loading="lazy"
+          >
+        </div>
+      </section>
+      <section class="advantages" id="advantages">
+        <div class="advantages__container">
+          <div class="advantages__intro">
+            <h2 class="advantages__lead">Мы продумали каждую деталь, чтобы ваш отдых был комфортным и&nbsp;запоминающимся.</h2>
+          </div>
+
+          <div class="advantages__grid">
+            <article class="advantages-card">
+              <div class="advantages-card__icon">
+                <img src="assets/images/icons/logo_pool_vector.svg" alt="" aria-hidden="true">
+              </div>
+              <h3 class="advantages-card__title">Подогреваемый бассейн круглый год</h3>
+              <p class="advantages-card__text">Тёплая зона отдыха под&nbsp;открытым небом в&nbsp;любое время года.</p>
+            </article>
+            <article class="advantages-card">
+              <div class="advantages-card__icon">
+                <img src="assets/images/icons/logo_grill_vector.svg" alt="" aria-hidden="true">
+              </div>
+              <h3 class="advantages-card__title">Мангальная зона</h3>
+              <p class="advantages-card__text">Удобное место для&nbsp;уютных вечеров и&nbsp;отдыха на&nbsp;свежем воздухе.</p>
+            </article>
+            <article class="advantages-card">
+              <div class="advantages-card__icon">
+                <img src="assets/images/icons/logo_firewood_vector.svg" alt="" aria-hidden="true">
+              </div>
+              <h3 class="advantages-card__title">Лобное место</h3>
+              <p class="advantages-card__text">Пространство для&nbsp;атмосферных встреч, разговоров и&nbsp;вечернего отдыха.</p>
+            </article>
+            <article class="advantages-card">
+              <div class="advantages-card__icon">
+                <img src="assets/images/icons/logo_house_vector.svg" alt="" aria-hidden="true">
+              </div>
+              <h3 class="advantages-card__title">7 уютных номеров</h3>
+              <p class="advantages-card__text">Комфортные номера для&nbsp;спокойного загородного отдыха.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="events-section" id="events" aria-labelledby="events-title">
+        <div class="events-section__content">
+          <h2 class="events-section__title" id="events-title">Мероприятия</h2>
+          <p class="events-section__lead">Праздники и&nbsp;встречи на&nbsp;природе</p>
+          <p class="events-section__text">«Малина&nbsp;Восток» подходит для&nbsp;камерных праздников, семейных встреч и&nbsp;отдыха небольшой компанией. Пространство глэмпинга объединяет природу, комфортные номера и&nbsp;зоны для&nbsp;общения — чтобы провести день в&nbsp;спокойной и&nbsp;уютной атмосфере.</p>
+        </div>
+        <div class="events-section__visual">
+          <img
+            src="assets/images/photos/events-main.jpg"
+            alt="Мероприятия в глэмпинге «Малина Восток»"
+            loading="lazy"
+          >
+        </div>
+      </section>
+      <section class="gallery-section" id="gallery" aria-labelledby="gallery-title">
+        <div class="page-shell gallery-section__header">
+          <h2 class="gallery-section__title" id="gallery-title">Галерея</h2>
+        </div>
+        <div class="gallery-track" tabindex="0" aria-label="Горизонтальная фотогалерея">
+          <div class="gallery-list">
+            <button class="gallery-card" type="button" data-gallery-index="0" aria-label="Открыть изображение 1 из 7">
+              <img src="assets/images/gallery/gallery-01.png" alt="Рендер 1" loading="lazy" draggable="false">
+            </button>
+            <button class="gallery-card" type="button" data-gallery-index="1" aria-label="Открыть изображение 2 из 7">
+              <img src="assets/images/gallery/gallery-02.png" alt="Рендер 2" loading="lazy" draggable="false">
+            </button>
+            <button class="gallery-card" type="button" data-gallery-index="2" aria-label="Открыть изображение 3 из 7">
+              <img src="assets/images/gallery/gallery-03.png" alt="Рендер 3" loading="lazy" draggable="false">
+            </button>
+            <button class="gallery-card" type="button" data-gallery-index="3" aria-label="Открыть изображение 4 из 7">
+              <img src="assets/images/gallery/gallery-04.png" alt="Рендер 4" loading="lazy" draggable="false">
+            </button>
+            <button class="gallery-card" type="button" data-gallery-index="4" aria-label="Открыть изображение 5 из 7">
+              <img src="assets/images/gallery/gallery-05.png" alt="Рендер 5" loading="lazy" draggable="false">
+            </button>
+            <button class="gallery-card" type="button" data-gallery-index="5" aria-label="Открыть изображение 6 из 7">
+              <img src="assets/images/gallery/gallery-06.png" alt="Рендер 6" loading="lazy" draggable="false">
+            </button>
+            <button class="gallery-card" type="button" data-gallery-index="6" aria-label="Открыть изображение 7 из 7">
+              <img src="assets/images/gallery/gallery-07.png" alt="Рендер 7" loading="lazy" draggable="false">
+            </button>
+          </div>
+        </div>
+
+        <div class="gallery-lightbox" role="dialog" aria-modal="true" aria-label="Просмотр изображения" aria-hidden="true" inert>
+          <button class="gallery-lightbox__close" type="button" aria-label="Закрыть полноэкранный просмотр">×</button>
+          <button class="gallery-lightbox__previous" type="button" aria-label="Предыдущее изображение">‹</button>
+          <div class="gallery-lightbox__stage">
+            <img class="gallery-lightbox__image" alt="">
+          </div>
+          <button class="gallery-lightbox__next" type="button" aria-label="Следующее изображение">›</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-shell footer-inner">
+        <img class="footer-logo" src="assets/images/logo/malina-vostok-logo.png" alt="Малина Восток">
+        <address>пос. Большаково, ул. Садовая, 12</address>
+        <span>+7 (___) ___-__-__</span>
+        <a href="privacy.html">Политика конфиденциальности</a>
+      </div>
+    </footer>
+
+  </body>
+</html>
